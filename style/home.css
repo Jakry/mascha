@@ -1,0 +1,46 @@
+#welcome {
+	margin-top: 100px;
+	height: 400px;
+	width: 100%;	
+}
+.welctext {	
+	width: 600px; 
+	margin: auto; 
+	margin-bottom: 30px; 
+	font-weight: 600; 
+	text-align: center;
+	font-size: 18pt;
+}
+.linkwelctext {
+	float:left; 
+	width: 360px; 
+	text-align: center; 
+	padding: 50px 20px 40px;	
+	
+}
+.linkwelctext .imglink {
+	margin-bottom: 30px;
+	background-repeat: no-repeat;		
+}
+.linkwelctext .imglink a {
+	margin: auto;
+	margin-bottom: 30px;
+	background-repeat: no-repeat;
+	width: 128px;
+	height: 128px;
+	display: block;			
+} 
+.linkwelctext .imglink .speech {
+	background-image: url('images/speech.png');
+	background-size: 165px;
+	background-position: -18px 0;
+}
+.linkwelctext .imglink a:hover {
+	opacity: 0.4;
+}
+.linkwelctext .imglink .page {
+	background-image: url('images/documents.png');
+}
+.linkwelctext .imglink .calender {
+	background-image: url('images/calander.png');
+}

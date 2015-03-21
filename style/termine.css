@@ -1,0 +1,76 @@
+#termine {
+	position: relative;
+	top: -50px;
+}
+#termine .table .thead {
+	width: 100%;
+	height: 50px;
+	background-color: #ececec;
+	border-bottom: 1px solid #000;	
+	z-index: 5;
+}
+#termine .table .thead .fullhead {
+    position: absolute;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    float: none;
+    padding: 0;
+    height: 50px;
+	background-color: #ececec;
+	border-bottom: 1px solid #000;
+	display: none;	
+}
+
+#termine .table .thead div {	
+	float: left; 
+	font-weight: normal;	
+	line-height: 35px;
+	padding-top: 10px;	
+	position: relative;
+}
+#termine .table .thead div.clear {
+	float: none;
+	display: none;
+}
+#termine .table .name {
+	width: 290px;	
+	margin-left: 10px;
+}
+#termine .table .name.col {
+	font-weight: bold;
+	font-size: 15pt;
+}
+#termine .table .form {
+	width: 290px;	
+}
+#termine .table .datum {
+	width: 210px;	
+}
+#termine .table .zeit {
+	width: 200px;	
+}
+#termine .table .ort {
+	width: 200px;	
+}
+
+#termine .table .tbody .col {	
+	line-height: 20px;
+	margin-top: 15px;
+	float: left;
+}
+#termine .table .row {
+	position: relative;
+	font-size: 14pt;
+	min-height: 35px;
+}
+#termine .table .row .tpic {	
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	z-index: 9;
+}
+#termine .table .tline {
+	width: 100%;
+	margin: 60px 0 0px;
+	border-top: 1px solid #000;
+}

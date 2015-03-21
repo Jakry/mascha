@@ -1,0 +1,104 @@
+#steckbrief {
+	position: relative;
+}
+#steckbrief table {
+	margin: auto;
+	border-spacing: 0;
+}
+#steckbrief table td {
+	padding: 10px 15px;
+	width: 400px;
+}
+#steckbrief table td.attr {
+	text-align: right;
+	border-right: 1px solid #000;	
+	color: #910C0C;	
+}
+#steckbrief table td.val {
+	text-align: left;	
+} 
+
+#steckbrief .place {
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+#steckbrief .inner {
+	position: relative;
+}
+#steckbrief .inner .col-attr {
+	width: 100px;
+	position: relative;
+	color: #910C0C;	
+}
+#steckbrief .inner .col-val {
+	font-size: 15pt;
+	max-width: 400px;
+}
+#steckbrief .inner .col-attr, #steckbrief .inner .col-val {
+	line-height: 25px;
+	padding-top: 15px;
+}
+#steckbrief .works .wrapborder {
+	border-right: 1px solid #000;
+	width: 100%;	
+}
+#steckbrief .works {
+	float: left;
+	width: 599px;	
+}
+#steckbrief .works .inner {
+	float: left;		
+	height: 100%;
+}
+#steckbrief .works h4 {
+	text-align: left;
+}
+#steckbrief .works .col-attr {	
+	float: left;	
+}
+#steckbrief .works .col-val {	
+	float: left;
+}
+#steckbrief .zert {
+	float: left;
+	width: 600px;
+}
+#steckbrief .zert .inner {
+	float: right;
+}
+#steckbrief .zert h4 {
+	text-align: right;
+}
+#steckbrief .zert .col-attr {	
+	float: right;
+	text-align: right;
+}
+#steckbrief .zert .col-val {
+	float: right;
+	text-align: right;
+}
+
+#berfahrung {
+	position: relative;
+}
+#berfahrung .row {
+	width: 100%;	
+	position: relative;
+}
+#berfahrung .row .logo img {
+	max-width: 250px;
+	max-height: 150px;
+}
+#berfahrung .row .logo {
+	float: left;
+	width: 250px;
+	height: 150px;	
+	margin-right: 125px;
+}
+#berfahrung .row .text {
+	float: left;	
+}
+#berfahrung .footline {
+	margin: 30px auto;
+}

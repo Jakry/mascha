@@ -1,0 +1,318 @@
+#backimagecontainer .centerarrow {
+	top: 50%;	
+	width: 100px;
+	position: absolute;
+}
+#backimagecontainer .centerarrow.left {
+	left: 0;
+}
+#backimagecontainer .centerarrow.right {
+	right: 0;
+}
+#backimagecontainer .arrow {
+	position: absolute;
+	display: block;
+	height: 100px;
+	top: -100px;
+	width: 100px;
+	background-size: 100px 100px;	
+}
+#backimagecontainer .arrow.right {
+	background-image: url('images/arrow_right.png');	
+}
+#backimagecontainer a.arrow.right:hover {
+	opacity: 0.4;
+}
+#backimagecontainer .arrow.left {
+	background-image: url('images/arrow_left.png');	
+}
+#backimagecontainer a.arrow.left:hover {
+	opacity: 0.4;	
+}
+.centerdots {
+	position: absolute;
+	left: 50%;		
+}
+.wrapdots {
+	width: 150px;
+	left: -75px;
+	height: 30px;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 15px;
+}
+.dots {
+	position: absolute;
+	left: -60px; 
+	width: 270px;
+	height: 30px;
+}
+.dots a {
+	background-color: #999;
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	border-radius: 10px;
+	float: left;
+}
+.dots .d1, .dots .d5 { opacity: 0.5; }
+.dots .d0, .dots .d6 { opacity: 0.3; }
+.dots .dm1, .dots .d7 { opacity: 0.1; }
+.dots .d3 { background-color: #910C0C; }
+.portline {
+	width: 1200px;
+	margin: -7px auto;
+	background-image: url('images/Portrait_line.jpg');
+	height: 1px;
+	background-color: transparent;
+}
+
+#film {
+	position: relative;
+}
+#film .wrapvid {
+	min-height: 500px;
+	width: 853px;
+	margin: 20px auto;
+	position: relative;
+}
+
+#buehne {
+	position: relative;
+	height: 1200px;	
+}
+#buehne .arrow {
+	display: block;
+	width: 62px;
+	height: 62px;		
+	margin: 60px auto 0;
+}
+#buehne .arrow.down {
+	background-image: url('images/arrow_down.png');
+}
+#buehne .arrow.up {
+	background-image: url('images/arrow_up.png');
+}
+#buehne .arrow:hover {
+	opacity: 0.4;
+}
+#buehne .wrapbuehne {
+	max-height: 1060px;
+	overflow: hidden;
+}
+#buehne .bline {
+	margin: 30px auto;	
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+#buehne .brow {
+	width: 100%;	
+	position: relative;	
+}
+#buehne .brow .bcol {
+	width: 360px;
+	padding: 0px 20px;	
+	float: left;
+	position: relative;
+}
+#buehne .brow .bcol h3 {
+	margin-top: 0;
+}
+#buehne .brow .bcol .btxt {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	font-size: 14pt;
+}
+#buehne .brow .bcol .contread {	
+	font-size: 14pt;
+}
+#buehne .brow .bcol .btxt h4 {
+	margin-top: 0;
+}
+#buehne .bigpic {
+	width: 300px;
+	height: 200px;	
+	float: left;
+	overflow: hidden;
+}
+#buehne .bigpic img {
+	max-width: 300px;
+	max-height: 200px;
+}
+#buehne .bigpic .wrapfancy {
+	position: relative;
+}
+#buehne .bigpic a.fancyme {
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+#buehne .bigpic .wrapbigpics {
+	position: relative;	
+}
+#buehne .picslist {
+	width: 50px;
+	height: 200px;
+	float: left;	
+}
+#buehne .picslist .parrow {
+	display: block;
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	background-size: 35px 35px;
+	margin-left: 10px;
+}
+#buehne .picslist .parrow:hover {
+	opacity: 0.4;
+}
+#buehne .picslist .parrow.up {
+	background-image: url('images/arrow_up2.png');
+	top: 65px;	
+}
+#buehne .picslist .parrow.down {
+	background-image: url('images/arrow_down2.png');
+	bottom: 10px;
+}
+
+#buehne .picslist .centerdots {
+	position: relative;
+	top: 50%;
+}
+
+#buehne .picslist .wrapdot {
+	position: absolute;
+	top: -50%;
+}
+#buehne .picslist a.dot.active {
+	background-color: #910C0C;
+}
+#buehne .picslist a.dot:hover {
+	opacity: 0.5;	
+}	
+#buehne .picslist a.dot {	
+	background-color: #999;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	display: block;
+	margin: 10px auto;			
+}
+
+#stimme {
+	position: relative;
+}
+#stimme .player {
+	float: left;
+	width: 500px;
+	height: 200px;
+	margin: 45px;
+	position: relative;	
+}
+#stimme .jp-audio {  
+    width: 100%;
+    height: 100%;      
+    position: relative; 
+    overflow: hidden;
+} 
+#stimme .jp-title {  
+    position: absolute;
+	top: 75px;
+	left: 200px;
+	z-index: 10;
+}  
+#stimme .jp-title ul {  
+    padding: 0;  
+    margin: 0;  
+    list-style: none;  
+}
+#stimme .jp-background {	
+	height: 170px;
+	position: absolute;	
+	width: 100%;
+	top: 0px;
+	overflow: hidden;	
+}
+#stimme .jp-background .cont {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 170px;
+	background-color: #ececec;
+}
+#stimme .jp-gui {  
+   	position: absolute;
+   	background-color: #555;
+	top: 170px;
+	width: 100%;
+	height: 0px;
+	
+}  
+#stimme .jp-controls {      
+    top: -137px;
+	left: 45px;
+	height: 100px;
+	width: 100px;	
+	display: block;
+	position: absolute;
+	z-index: 10;  		
+}  
+#stimme .jp-controls div {  
+    height: 100%;
+    width: 100%;
+    background-repeat; no-repeat;
+	background-size: 100px 100px;
+	cursor: pointer;    
+}
+#stimme .jp-play {  
+	background-image: url('images/play.png');
+}  
+#stimme .jp-pause {
+	background-image: url('images/pause.png');
+}  
+#stimme .jp-controls div:hover {  
+    opacity: 0.4;
+}  
+#stimme .jp-progress {  
+    width: 380px !important;
+	left: 20px;
+	height: 3px;
+	background: none;
+	background-color: #999;
+	top: 14px;
+	position: absolute;
+	margin: 0;
+	display: none;
+}
+#stimme .jp-play-bar {  
+    background-color: #78BACF;	
+	height: 3px;
+	position: relative;
+}
+#stimme .jp-play-bar .linebut {
+	height: 16px;
+	width: 16px;
+	border-radius: 8px;
+	display: block;
+	background-color: #1FA4CC;
+	top: -7px;
+	right: -8px;
+	position: absolute;
+}
+#stimme .jp-time-holder {  
+    left: 415px;
+	top: 10px;
+	position: absolute;
+	font-size: 12pt;
+	color: #fff;
+	line-height: 12px;
+	padding: 0;
+	font-size: 12pt;
+}
+#stimme .jp-no-solution {
+	top: -200px;
+	position: relative
+} 
